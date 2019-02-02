@@ -2,12 +2,11 @@ var express = require("express");
 var app = express();
 
 app.get("/", function(req, res){
-  res.status(302).send("Root");
+  res.redirect("/hello");
 })
 
 app.get("/hello", function (req, res) {
   res.status(200).send("Hello World!");
-  //res.send("Hello World!");
 });
 
 app.get("/google", function(req, res){
@@ -16,7 +15,7 @@ app.get("/google", function(req, res){
 })
 
 app.get("/fail", function(req, res){
-  res.status(500).send("Fehler");
+  res.sendStatus(500);
 })
 
 app.listen(3000, function() {
