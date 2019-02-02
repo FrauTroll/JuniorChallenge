@@ -11,7 +11,8 @@ app.get("/hello", function (req, res) {
 });
 
 app.get("/google", function(req, res){
-  res.status(302).send("Google");
+  //Redirect auf Status 302
+  res.redirect("http://www.google.de");
 })
 
 app.get("/fail", function(req, res){
