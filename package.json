@@ -4,7 +4,7 @@
   "description": "Challenge Aufgabe für Bewerbung",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"TRAVIS TEST \"",
     "start": "node server.js"
   },
   "repository": {
