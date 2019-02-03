@@ -4,6 +4,7 @@
   "description": "Challenge Aufgabe für Bewerbung",
   "main": "hello.js",
   "scripts": {
+    "grunt": "grunt"
     "test": "grunt jshint",
     "start": "node hello.js"
   },
