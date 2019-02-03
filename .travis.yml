@@ -6,11 +6,8 @@ language: node_js
 #  -"10.15.1"
 
 
-#install:
-#  -npm install
+install:
+  -npm install
 cache:
   directories:
     -"node_modules"
-
-before_script:
-  -npm install grunt-cli -g
