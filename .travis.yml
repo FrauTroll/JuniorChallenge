@@ -4,4 +4,5 @@ node_js:
   -"node"
 
 install:
+  -nvm install -node
   -npm install
