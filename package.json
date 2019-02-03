@@ -2,10 +2,10 @@
   "name": "juniorchallenge",
   "version": "1.0.0",
   "description": "Challenge Aufgabe für Bewerbung",
-  "main": "server.js",
+  "main": "hello.js",
   "scripts": {
     "test": "grunt jshint",
-    "start": "node server.js"
+    "start": "node hello.js"
   },
   "repository": {
     "type": "git",
