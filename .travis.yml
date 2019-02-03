@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-  -"0.10"
+  - "0.10"
 
 
 #install:
@@ -12,7 +12,7 @@ node_js:
 
 before_script:
 #  npm install grunt -g
-  npm install grunt-cli -g
+#  npm install grunt-cli -g
 #  npm install jshint -g
 
 #cache:
