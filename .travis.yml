@@ -3,18 +3,6 @@ language: node_js
 node_js:
   - "10.15"
 
-
-#install:
-#  npm install -g grunt
-#  npm install -g grunt-cli
-#  npm install -g jshint
-#  npm install
-
-before_script:
-#   npm install grunt -g
-#   npm install grunt-cli -g
-#  npm install jshint -g
-
 cache:
   directories:
     -"node_modules"
