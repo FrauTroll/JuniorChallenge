@@ -13,7 +13,9 @@ language: node_js
 #  npm install
 
 before_script:
+  npm install grunt -g
   npm install grunt-cli -g
+  npm install jshint -g
 
 #cache:
 #  directories:
