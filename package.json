@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/FrauTroll/JuniorChallenge#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "~4.16.4"
   },
   "devDependencies": {
-    "grunt": "^1.0.3",
-    "grunt-contrib-jshint": "^2.0.0"
+    "grunt": "~1.0.3",
+    "grunt-contrib-jshint": "~2.0.0"
   }
 }
