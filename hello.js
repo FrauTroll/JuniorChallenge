@@ -3,7 +3,7 @@ var app = express();
 
 app.get("/", function(req, res){
   res.redirect("/hello");
-});
+})
 
 app.get("/hello", function (req, res) {
   res.status(200).send("Hello World!");

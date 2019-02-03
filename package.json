@@ -4,7 +4,7 @@
   "description": "Challenge Aufgabe für Bewerbung",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"TRAVIS TEST \"",
+    "test": "grunt jshint",
     "start": "node server.js"
   },
   "repository": {
