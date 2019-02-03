@@ -13,7 +13,7 @@ language: node_js
 #  npm install
 
 before_script:
-  -npm install grunt-cli -g
+  npm install grunt-cli -g
 
 #cache:
 #  directories:
