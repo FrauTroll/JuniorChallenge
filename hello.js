@@ -18,6 +18,6 @@ app.get("/fail", function(req, res){
   res.sendStatus(500);
 });
 
-app.listen(3000, function() {
+app.listen(process.env.PORT || 3000, function() {
   console.log ("Lauschen auf Port 3000.");
 });
