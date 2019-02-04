@@ -12,4 +12,5 @@ deploy:
   api_key: b23a5e32-1f33-41ad-b4a3-370c8b12c107
   app: juniorchallenge
   on:
+    branch: master
     repo: FrauTroll/JuniorChallenge
