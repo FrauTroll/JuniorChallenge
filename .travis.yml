@@ -15,6 +15,6 @@ deploy:
 #  run:
 #    - "git add"
 #    - "git commit -a"
-#  on:
-#    branch: master
-#    repo: FrauTroll/JuniorChallenge
+  on:
+    branch: master
+    repo: FrauTroll/JuniorChallenge

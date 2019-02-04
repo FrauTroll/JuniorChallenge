@@ -6,7 +6,7 @@ app.get("/", function(req, res){
 });
 
 app.get("/hello", function (req, res) {
-  res.status(200).send("Hello World!");
+  res.status(200).send("Hello World! Test");
 });
 
 app.get("/google", function(req, res){
